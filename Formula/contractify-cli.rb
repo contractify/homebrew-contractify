@@ -1,9 +1,9 @@
 class ContractifyCli < Formula
   desc "CLI interface for Contractify"
   homepage "https://contractify.io"
-  url "https://contractify-builds.fra1.cdn.digitaloceanspaces.com/contractify-cli/209958ace76f48d58b70ff8643f433a77657a913/contractify-cli-macos.tar.gz"
-  version "1.8.0"
-  sha256 "6fd9a8b2985b8c6e40d50e3382b5d26f6e07f777b3127401ec65a695d98b4c20"
+  url "https://contractify-builds.fra1.cdn.digitaloceanspaces.com/contractify-cli/94c297dd4ab9b47fd65cfdba5e47f450edf142a2/contractify-cli-macos.tar.gz"
+  version "1.9.0"
+  sha256 "8a5a6cc63adb4c01dfbaaf214dd7c21cc66e2d67802a68fefbdca47f4fdcf610"
   license "MIT"
 
   def install
