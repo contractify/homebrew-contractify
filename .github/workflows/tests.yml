@@ -27,10 +27,6 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: brew install-bundler-gems
 
-      - name: Disable Linux sandbox (unprivileged namespaces not available)
-        if: runner.os == 'Linux'
-        run: echo "HOMEBREW_NO_SANDBOX_LINUX=1" >> "$GITHUB_ENV"
-
       - run: brew test-bot --only-cleanup-before
 
       - run: brew test-bot --only-setup
